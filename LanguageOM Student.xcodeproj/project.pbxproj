@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90320BA1D16F28300E65D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320B91D16F28300E65D0B /* AppDelegate.swift */; };
+		A90320BC1D16F28300E65D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320BB1D16F28300E65D0B /* ViewController.swift */; };
+		A90320BF1D16F28300E65D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90320BD1D16F28300E65D0B /* Main.storyboard */; };
+		A90320C11D16F28300E65D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90320C01D16F28300E65D0B /* Assets.xcassets */; };
+		A90320C41D16F28300E65D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90320C21D16F28300E65D0B /* LaunchScreen.storyboard */; };
+		A90320CF1D16F28300E65D0B /* LanguageOM_StudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320CE1D16F28300E65D0B /* LanguageOM_StudentTests.swift */; };
+		A90320DA1D16F28300E65D0B /* LanguageOM_StudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320D91D16F28300E65D0B /* LanguageOM_StudentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90320CB1D16F28300E65D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90320AE1D16F28300E65D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90320B51D16F28300E65D0B;
+			remoteInfo = "LanguageOM Student";
+		};
+		A90320D61D16F28300E65D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90320AE1D16F28300E65D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90320B51D16F28300E65D0B;
+			remoteInfo = "LanguageOM Student";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A90320B61D16F28300E65D0B /* LanguageOM Student.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LanguageOM Student.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90320B91D16F28300E65D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A90320BB1D16F28300E65D0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A90320BE1D16F28300E65D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A90320C01D16F28300E65D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90320C31D16F28300E65D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A90320C51D16F28300E65D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90320CA1D16F28300E65D0B /* LanguageOM StudentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LanguageOM StudentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90320CE1D16F28300E65D0B /* LanguageOM_StudentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOM_StudentTests.swift; sourceTree = "<group>"; };
+		A90320D01D16F28300E65D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90320D51D16F28300E65D0B /* LanguageOM StudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LanguageOM StudentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90320D91D16F28300E65D0B /* LanguageOM_StudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOM_StudentUITests.swift; sourceTree = "<group>"; };
+		A90320DB1D16F28300E65D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A90320B31D16F28300E65D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90320C71D16F28300E65D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90320D21D16F28300E65D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90320AD1D16F28300E65D0B = {
+			isa = PBXGroup;
+			children = (
+				A90320B81D16F28300E65D0B /* LanguageOM Student */,
+				A90320CD1D16F28300E65D0B /* LanguageOM StudentTests */,
+				A90320D81D16F28300E65D0B /* LanguageOM StudentUITests */,
+				A90320B71D16F28300E65D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A90320B71D16F28300E65D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90320B61D16F28300E65D0B /* LanguageOM Student.app */,
+				A90320CA1D16F28300E65D0B /* LanguageOM StudentTests.xctest */,
+				A90320D51D16F28300E65D0B /* LanguageOM StudentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90320B81D16F28300E65D0B /* LanguageOM Student */ = {
+			isa = PBXGroup;
+			children = (
+				A90320B91D16F28300E65D0B /* AppDelegate.swift */,
+				A90320BB1D16F28300E65D0B /* ViewController.swift */,
+				A90320BD1D16F28300E65D0B /* Main.storyboard */,
+				A90320C01D16F28300E65D0B /* Assets.xcassets */,
+				A90320C21D16F28300E65D0B /* LaunchScreen.storyboard */,
+				A90320C51D16F28300E65D0B /* Info.plist */,
+			);
+			path = "LanguageOM Student";
+			sourceTree = "<group>";
+		};
+		A90320CD1D16F28300E65D0B /* LanguageOM StudentTests */ = {
+			isa = PBXGroup;
+			children = (
+				A90320CE1D16F28300E65D0B /* LanguageOM_StudentTests.swift */,
+				A90320D01D16F28300E65D0B /* Info.plist */,
+			);
+			path = "LanguageOM StudentTests";
+			sourceTree = "<group>";
+		};
+		A90320D81D16F28300E65D0B /* LanguageOM StudentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A90320D91D16F28300E65D0B /* LanguageOM_StudentUITests.swift */,
+				A90320DB1D16F28300E65D0B /* Info.plist */,
+			);
+			path = "LanguageOM StudentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A90320B51D16F28300E65D0B /* LanguageOM Student */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90320DE1D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM Student" */;
+			buildPhases = (
+				A90320B21D16F28300E65D0B /* Sources */,
+				A90320B31D16F28300E65D0B /* Frameworks */,
+				A90320B41D16F28300E65D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LanguageOM Student";
+			productName = "LanguageOM Student";
+			productReference = A90320B61D16F28300E65D0B /* LanguageOM Student.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A90320C91D16F28300E65D0B /* LanguageOM StudentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90320E11D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM StudentTests" */;
+			buildPhases = (
+				A90320C61D16F28300E65D0B /* Sources */,
+				A90320C71D16F28300E65D0B /* Frameworks */,
+				A90320C81D16F28300E65D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90320CC1D16F28300E65D0B /* PBXTargetDependency */,
+			);
+			name = "LanguageOM StudentTests";
+			productName = "LanguageOM StudentTests";
+			productReference = A90320CA1D16F28300E65D0B /* LanguageOM StudentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A90320D41D16F28300E65D0B /* LanguageOM StudentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90320E41D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM StudentUITests" */;
+			buildPhases = (
+				A90320D11D16F28300E65D0B /* Sources */,
+				A90320D21D16F28300E65D0B /* Frameworks */,
+				A90320D31D16F28300E65D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A90320D71D16F28300E65D0B /* PBXTargetDependency */,
+			);
+			name = "LanguageOM StudentUITests";
+			productName = "LanguageOM StudentUITests";
+			productReference = A90320D51D16F28300E65D0B /* LanguageOM StudentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90320AE1D16F28300E65D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Valentino;
+				TargetAttributes = {
+					A90320B51D16F28300E65D0B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3M4QJ8P9BX;
+					};
+					A90320C91D16F28300E65D0B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3M4QJ8P9BX;
+						TestTargetID = A90320B51D16F28300E65D0B;
+					};
+					A90320D41D16F28300E65D0B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3M4QJ8P9BX;
+						TestTargetID = A90320B51D16F28300E65D0B;
+					};
+				};
+			};
+			buildConfigurationList = A90320B11D16F28300E65D0B /* Build configuration list for PBXProject "LanguageOM Student" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A90320AD1D16F28300E65D0B;
+			productRefGroup = A90320B71D16F28300E65D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A90320B51D16F28300E65D0B /* LanguageOM Student */,
+				A90320C91D16F28300E65D0B /* LanguageOM StudentTests */,
+				A90320D41D16F28300E65D0B /* LanguageOM StudentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90320B41D16F28300E65D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90320C41D16F28300E65D0B /* LaunchScreen.storyboard in Resources */,
+				A90320C11D16F28300E65D0B /* Assets.xcassets in Resources */,
+				A90320BF1D16F28300E65D0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90320C81D16F28300E65D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90320D31D16F28300E65D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90320B21D16F28300E65D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90320BC1D16F28300E65D0B /* ViewController.swift in Sources */,
+				A90320BA1D16F28300E65D0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90320C61D16F28300E65D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90320CF1D16F28300E65D0B /* LanguageOM_StudentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90320D11D16F28300E65D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90320DA1D16F28300E65D0B /* LanguageOM_StudentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90320CC1D16F28300E65D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90320B51D16F28300E65D0B /* LanguageOM Student */;
+			targetProxy = A90320CB1D16F28300E65D0B /* PBXContainerItemProxy */;
+		};
+		A90320D71D16F28300E65D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90320B51D16F28300E65D0B /* LanguageOM Student */;
+			targetProxy = A90320D61D16F28300E65D0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A90320BD1D16F28300E65D0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90320BE1D16F28300E65D0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A90320C21D16F28300E65D0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90320C31D16F28300E65D0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90320DC1D16F28300E65D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90320DD1D16F28300E65D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90320DF1D16F28300E65D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LanguageOM Student/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gmvalentino8.LanguageOM-Student";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A90320E01D16F28300E65D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LanguageOM Student/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gmvalentino8.LanguageOM-Student";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A90320E21D16F28300E65D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LanguageOM StudentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gmvalentino8.LanguageOM-StudentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageOM Student.app/LanguageOM Student";
+			};
+			name = Debug;
+		};
+		A90320E31D16F28300E65D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LanguageOM StudentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gmvalentino8.LanguageOM-StudentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanguageOM Student.app/LanguageOM Student";
+			};
+			name = Release;
+		};
+		A90320E51D16F28300E65D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LanguageOM StudentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gmvalentino8.LanguageOM-StudentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LanguageOM Student";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A90320E61D16F28300E65D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LanguageOM StudentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gmvalentino8.LanguageOM-StudentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LanguageOM Student";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90320B11D16F28300E65D0B /* Build configuration list for PBXProject "LanguageOM Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90320DC1D16F28300E65D0B /* Debug */,
+				A90320DD1D16F28300E65D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90320DE1D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90320DF1D16F28300E65D0B /* Debug */,
+				A90320E01D16F28300E65D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A90320E11D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM StudentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90320E21D16F28300E65D0B /* Debug */,
+				A90320E31D16F28300E65D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A90320E41D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM StudentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90320E51D16F28300E65D0B /* Debug */,
+				A90320E61D16F28300E65D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90320AE1D16F28300E65D0B /* Project object */;
+}
