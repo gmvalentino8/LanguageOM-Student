@@ -1,0 +1,6 @@
+framework module Pods_LanguageOM_StudentUITests {
+  umbrella header "Pods-LanguageOM StudentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

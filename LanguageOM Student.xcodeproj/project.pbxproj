@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6827EAA098268EF7A03D2DE4 /* Pods_LanguageOM_StudentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D07EF7DCA4ED95074154420 /* Pods_LanguageOM_StudentUITests.framework */; };
+		6DDAB1DA1A61A9A885FF0156 /* Pods_LanguageOM_StudentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8086AB0B792F38088B162B1 /* Pods_LanguageOM_StudentTests.framework */; };
 		A90320BA1D16F28300E65D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320B91D16F28300E65D0B /* AppDelegate.swift */; };
 		A90320BC1D16F28300E65D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320BB1D16F28300E65D0B /* ViewController.swift */; };
 		A90320BF1D16F28300E65D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90320BD1D16F28300E65D0B /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		A90320C41D16F28300E65D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90320C21D16F28300E65D0B /* LaunchScreen.storyboard */; };
 		A90320CF1D16F28300E65D0B /* LanguageOM_StudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320CE1D16F28300E65D0B /* LanguageOM_StudentTests.swift */; };
 		A90320DA1D16F28300E65D0B /* LanguageOM_StudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320D91D16F28300E65D0B /* LanguageOM_StudentUITests.swift */; };
+		A90320E81D16F2C600E65D0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A90320E71D16F2C600E65D0B /* GoogleService-Info.plist */; };
+		A90320F01D16F48800E65D0B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320EB1D16F48800E65D0B /* LoginViewController.swift */; };
+		A90320F11D16F48800E65D0B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320EC1D16F48800E65D0B /* RegisterViewController.swift */; };
+		A90320F21D16F48800E65D0B /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90320ED1D16F48800E65D0B /* RequestsViewController.swift */; };
+		DCB3CE8CB17BDFB1E07687BA /* Pods_LanguageOM_Student.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961087FCD57B40CAF4623A30 /* Pods_LanguageOM_Student.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053F55C882F4A96C36CDE048 /* Pods-LanguageOM Student.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageOM Student.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageOM Student/Pods-LanguageOM Student.debug.xcconfig"; sourceTree = "<group>"; };
+		077BA9BBCD279B7A2ABE434B /* Pods-LanguageOM StudentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageOM StudentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageOM StudentTests/Pods-LanguageOM StudentTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E63A1A158A275B59E6C3B15 /* Pods-LanguageOM Student.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageOM Student.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageOM Student/Pods-LanguageOM Student.release.xcconfig"; sourceTree = "<group>"; };
+		1ED4EEA28538B3777761DD85 /* Pods-LanguageOM StudentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageOM StudentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageOM StudentTests/Pods-LanguageOM StudentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6BA639617A85A6040321D6 /* Pods-LanguageOM StudentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageOM StudentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageOM StudentUITests/Pods-LanguageOM StudentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3865F244302F0807EAB26D5D /* Pods-LanguageOM StudentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LanguageOM StudentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LanguageOM StudentUITests/Pods-LanguageOM StudentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D07EF7DCA4ED95074154420 /* Pods_LanguageOM_StudentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageOM_StudentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961087FCD57B40CAF4623A30 /* Pods_LanguageOM_Student.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageOM_Student.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90320B61D16F28300E65D0B /* LanguageOM Student.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LanguageOM Student.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90320B91D16F28300E65D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A90320BB1D16F28300E65D0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,11 @@
 		A90320D51D16F28300E65D0B /* LanguageOM StudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LanguageOM StudentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90320D91D16F28300E65D0B /* LanguageOM_StudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOM_StudentUITests.swift; sourceTree = "<group>"; };
 		A90320DB1D16F28300E65D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90320E71D16F2C600E65D0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A90320EB1D16F48800E65D0B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A90320EC1D16F48800E65D0B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A90320ED1D16F48800E65D0B /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		D8086AB0B792F38088B162B1 /* Pods_LanguageOM_StudentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LanguageOM_StudentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB3CE8CB17BDFB1E07687BA /* Pods_LanguageOM_Student.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDAB1DA1A61A9A885FF0156 /* Pods_LanguageOM_StudentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6827EAA098268EF7A03D2DE4 /* Pods_LanguageOM_StudentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64BD20E786AA14632F44332D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				961087FCD57B40CAF4623A30 /* Pods_LanguageOM_Student.framework */,
+				D8086AB0B792F38088B162B1 /* Pods_LanguageOM_StudentTests.framework */,
+				3D07EF7DCA4ED95074154420 /* Pods_LanguageOM_StudentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85E16A167AEA89F59B61C13F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				053F55C882F4A96C36CDE048 /* Pods-LanguageOM Student.debug.xcconfig */,
+				1E63A1A158A275B59E6C3B15 /* Pods-LanguageOM Student.release.xcconfig */,
+				1ED4EEA28538B3777761DD85 /* Pods-LanguageOM StudentTests.debug.xcconfig */,
+				077BA9BBCD279B7A2ABE434B /* Pods-LanguageOM StudentTests.release.xcconfig */,
+				2B6BA639617A85A6040321D6 /* Pods-LanguageOM StudentUITests.debug.xcconfig */,
+				3865F244302F0807EAB26D5D /* Pods-LanguageOM StudentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A90320AD1D16F28300E65D0B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				A90320CD1D16F28300E65D0B /* LanguageOM StudentTests */,
 				A90320D81D16F28300E65D0B /* LanguageOM StudentUITests */,
 				A90320B71D16F28300E65D0B /* Products */,
+				85E16A167AEA89F59B61C13F /* Pods */,
+				64BD20E786AA14632F44332D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +145,13 @@
 		A90320B81D16F28300E65D0B /* LanguageOM Student */ = {
 			isa = PBXGroup;
 			children = (
+				A90320E91D16F46E00E65D0B /* ViewControllers */,
 				A90320B91D16F28300E65D0B /* AppDelegate.swift */,
-				A90320BB1D16F28300E65D0B /* ViewController.swift */,
 				A90320BD1D16F28300E65D0B /* Main.storyboard */,
 				A90320C01D16F28300E65D0B /* Assets.xcassets */,
 				A90320C21D16F28300E65D0B /* LaunchScreen.storyboard */,
 				A90320C51D16F28300E65D0B /* Info.plist */,
+				A90320E71D16F2C600E65D0B /* GoogleService-Info.plist */,
 			);
 			path = "LanguageOM Student";
 			sourceTree = "<group>";
@@ -125,6 +174,17 @@
 			path = "LanguageOM StudentUITests";
 			sourceTree = "<group>";
 		};
+		A90320E91D16F46E00E65D0B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A90320BB1D16F28300E65D0B /* ViewController.swift */,
+				A90320EB1D16F48800E65D0B /* LoginViewController.swift */,
+				A90320EC1D16F48800E65D0B /* RegisterViewController.swift */,
+				A90320ED1D16F48800E65D0B /* RequestsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A90320DE1D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM Student" */;
 			buildPhases = (
+				98785413817BDD96E7D57F7F /* [CP] Check Pods Manifest.lock */,
 				A90320B21D16F28300E65D0B /* Sources */,
 				A90320B31D16F28300E65D0B /* Frameworks */,
 				A90320B41D16F28300E65D0B /* Resources */,
+				36C451E003E7721BE164E9E7 /* [CP] Embed Pods Frameworks */,
+				AB64F5FB4BF470105D1C7FC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A90320E11D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM StudentTests" */;
 			buildPhases = (
+				A0C0271F0018B443FE6272F6 /* [CP] Check Pods Manifest.lock */,
 				A90320C61D16F28300E65D0B /* Sources */,
 				A90320C71D16F28300E65D0B /* Frameworks */,
 				A90320C81D16F28300E65D0B /* Resources */,
+				A509AD764884151DBFD3FB7B /* [CP] Embed Pods Frameworks */,
+				310989CAB6ACC1FDD3F92EFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A90320E41D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM StudentUITests" */;
 			buildPhases = (
+				89166DA64712C64C78FF879A /* [CP] Check Pods Manifest.lock */,
 				A90320D11D16F28300E65D0B /* Sources */,
 				A90320D21D16F28300E65D0B /* Frameworks */,
 				A90320D31D16F28300E65D0B /* Resources */,
+				E022601F6D9DF4F35F88549B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90320C41D16F28300E65D0B /* LaunchScreen.storyboard in Resources */,
+				A90320E81D16F2C600E65D0B /* GoogleService-Info.plist in Resources */,
 				A90320C11D16F28300E65D0B /* Assets.xcassets in Resources */,
 				A90320BF1D16F28300E65D0B /* Main.storyboard in Resources */,
 			);
@@ -254,13 +323,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		310989CAB6ACC1FDD3F92EFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageOM StudentTests/Pods-LanguageOM StudentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36C451E003E7721BE164E9E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageOM Student/Pods-LanguageOM Student-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89166DA64712C64C78FF879A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98785413817BDD96E7D57F7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C0271F0018B443FE6272F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A509AD764884151DBFD3FB7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageOM StudentTests/Pods-LanguageOM StudentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB64F5FB4BF470105D1C7FC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageOM Student/Pods-LanguageOM Student-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E022601F6D9DF4F35F88549B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LanguageOM StudentUITests/Pods-LanguageOM StudentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A90320B21D16F28300E65D0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90320F01D16F48800E65D0B /* LoginViewController.swift in Sources */,
+				A90320F11D16F48800E65D0B /* RegisterViewController.swift in Sources */,
 				A90320BC1D16F28300E65D0B /* ViewController.swift in Sources */,
 				A90320BA1D16F28300E65D0B /* AppDelegate.swift in Sources */,
+				A90320F21D16F48800E65D0B /* RequestsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +595,7 @@
 		};
 		A90320DF1D16F28300E65D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053F55C882F4A96C36CDE048 /* Pods-LanguageOM Student.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LanguageOM Student/Info.plist";
@@ -411,6 +607,7 @@
 		};
 		A90320E01D16F28300E65D0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E63A1A158A275B59E6C3B15 /* Pods-LanguageOM Student.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LanguageOM Student/Info.plist";
@@ -422,6 +619,7 @@
 		};
 		A90320E21D16F28300E65D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED4EEA28538B3777761DD85 /* Pods-LanguageOM StudentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "LanguageOM StudentTests/Info.plist";
@@ -434,6 +632,7 @@
 		};
 		A90320E31D16F28300E65D0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077BA9BBCD279B7A2ABE434B /* Pods-LanguageOM StudentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "LanguageOM StudentTests/Info.plist";
@@ -446,6 +645,7 @@
 		};
 		A90320E51D16F28300E65D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6BA639617A85A6040321D6 /* Pods-LanguageOM StudentUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "LanguageOM StudentUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +658,7 @@
 		};
 		A90320E61D16F28300E65D0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3865F244302F0807EAB26D5D /* Pods-LanguageOM StudentUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "LanguageOM StudentUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,6 +688,7 @@
 				A90320E01D16F28300E65D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A90320E11D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM StudentTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +697,7 @@
 				A90320E31D16F28300E65D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A90320E41D16F28300E65D0B /* Build configuration list for PBXNativeTarget "LanguageOM StudentUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +706,7 @@
 				A90320E61D16F28300E65D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

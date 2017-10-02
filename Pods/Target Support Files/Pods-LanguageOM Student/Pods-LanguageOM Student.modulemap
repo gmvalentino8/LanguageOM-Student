@@ -1,0 +1,6 @@
+framework module Pods_LanguageOM_Student {
+  umbrella header "Pods-LanguageOM Student-umbrella.h"
+
+  export *
+  module * { export * }
+}
